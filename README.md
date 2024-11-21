@@ -6,10 +6,9 @@ Desenvolvi este repositório enquanto estudava para a disciplina de Álgebra Lin
 
 ### Scripts Disponíveis
 
-1. **Escalonador de Matriz** (`escalonador.py`)
 
-   - obtém a Forma Escada de uma matriz
-   - calcula o posto e a nulidade da matriz
+1. **Multiplicador de Matrizes** (`multiplicador.py`)
+   - Mostra o resultado da multiplicação de duas matrizes
 
 2. **Verificador de Forma Escada** (`is_escada.py`)
 
@@ -18,9 +17,11 @@ Desenvolvi este repositório enquanto estudava para a disciplina de Álgebra Lin
      - Zeros acima e abaixo do coeficiente líder
      - Linhas nulas abaixo das linhas não nulas
      - Coeficientes líderes progressivamente à direita
+    
+1. **Escalonador de Matriz** (`escalonador.py`)
 
-3. **Multiplicador de Matrizes** (`multiplicador.py`)
-   - Mostra o resultado da multiplicação de duas matrizes
+   - obtém a Forma Escada de uma matriz
+   - calcula o posto e a nulidade da matriz
 
 ## Como Usar
 
