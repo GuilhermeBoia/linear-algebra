@@ -1,4 +1,4 @@
-# Álgebra Linear Teacher
+# Álgebra Linear Handbook
 
 Desenvolvi este repositório enquanto estudava para a disciplina de Álgebra Linear e queria uma forma rápida de conferir as respostas dos meus exercícios. Meu objetivo é disponibilizar ferramentas práticas para que você verifique se a resposta das suas atividades estão corretas (e também uma forma que achei de tornar estudo de linear menos chato). Espero que goste! 😊
 
