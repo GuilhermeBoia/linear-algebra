@@ -1,6 +1,8 @@
 import numpy as np
 from sympy import Matrix, Rational
 
+from utils import ler_matriz
+
 def format_rational(rational):
     if rational.denominator == 1:
         return str(rational.numerator)
@@ -10,17 +12,7 @@ def format_rational(rational):
         return f"{float(rational):.4f}"
 
 def main():
-    print("Digite a matriz linha por linha, separando os elementos com espaços.")
-    print("Para terminar, pressione Enter em uma linha vazia.")
-    
-    matriz_entrada = []
-    while True:
-        linha = input()
-        if linha.strip() == "":
-            break
-        matriz_entrada.append(list(map(float, linha.split())))
-    
-    A = np.array(matriz_entrada)
+    A = ler_matriz()
     
     A_reduced = Matrix(A).rref()
     reduced_matrix, pivots = A_reduced
